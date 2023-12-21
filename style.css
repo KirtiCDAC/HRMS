@@ -1,30 +1,46 @@
-.navbar{
+.navbar {
     background-color: #9272C0;
 }
-.navbar h3{
+
+.navbar h3 {
     color: #fff;
     margin: auto;
 }
-.navbar img{
+
+.navbar img {
     margin: -12%;
     width: 90px;
     height: auto;
 }
-footer{
+
+footer {
     /* left: 0; */
     bottom: 0;
     width: 100%;
 
     /* min-height: 100vh ; */
-     display: flex ; 
-     flex-direction: column;
+    display: flex;
+    flex-direction: column;
+    position: relative;
 
 }
-footer p{
+
+footer p {
     color: #9272C0;
     font-size: 14px
 }
 
 .accordion-button {
-    background-color:#e9d5ff !important;
+    background-color: #e9d5ff !important;
+}
+
+.serviceCard .card-body .row {
+    margin-bottom: 21px;
+}
+.serviceCard .card-body .row:last-child{
+    margin-bottom: 0px;
+}
+
+#serviceHead{
+    font-size: 20px;
 }
