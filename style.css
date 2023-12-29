@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 .navbar {
     background-color: #9272C0;
 }
@@ -12,6 +16,34 @@
     width: 90px;
     height: auto;
 }
+
+.navbar i{
+    color: #fff;
+    cursor: pointer;
+}
+.navbar .social-icons{
+    display: flex;
+    gap: 10px;
+}
+@media (max-width: 768px) {
+    .navbar .container-fluid {
+        flex-direction: column;
+        text-align: center;
+    }
+    .navbar a{
+        text-align: center;
+    }
+    .navbar h3{
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .social-icons {
+        margin-top: 10px; 
+        text-align: center;
+    }
+}
+
 
 .profile img{
     width: 150px;
